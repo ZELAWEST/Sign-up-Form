@@ -23,11 +23,61 @@ body {
     background-color: #fff;
 }
 .left-section {
-    width: 60vh;
+    width: 70vh;
     position: relative;
     background-image: url('images.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-color: rgba(0, 0, 0, 0.174);
+}
+.left-section .font-norse {
+    background-color: transparent;
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'NorseFont', sans-serif;
+}
+.odin-logo {
+    margin-top: 150px;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.512);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.left-section .odin-logo {
+    margin-top: 150px;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.512);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.odin-logo img {
+
+    width: 70px;
+    max-height: 120px;
+
+
+}
+
+.left-section .photo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 10px;
+    left: 125px;
+
+}
+.left-section .credits-for-photo a ,.left-section .credits-for-photo{
+
+    color: #fff;
 }
