@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NorseFont';
+    /* Name your font family */
+    src: url('norse.bold.otf');
+    /* Locate the .ttf file within your directory*/
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+.container {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+}
