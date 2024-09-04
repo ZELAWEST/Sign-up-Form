@@ -16,9 +16,18 @@ body {
 
 }
 .container {
-    width: 80%;
-    height: inherit;
+    width: 80vw;
+    height: 100vh;
     display: flex;
-    margin: auto;
+    margin:  0 auto;
     background-color: #fff;
+}
+.left-section {
+    width: 60vh;
+    position: relative;
+    background-image: url('images.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.174);
 }
